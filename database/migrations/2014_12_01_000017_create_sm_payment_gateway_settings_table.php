@@ -47,8 +47,8 @@ class CreateSmPaymentGatewaySettingsTable extends Migration
                 'gateway_name' => 'PayPal',
                 'gateway_username' => 'demo@paypal.com',
                 'gateway_password' => '12334589',
-                'gateway_client_id' => 'AaCPtpoUHZEXCa3v006nbYhYfD0HIX-dlgYWlsb0fdoFqpVToATuUbT43VuUE6pAxgvSbPTspKBqAF0x',
-                'gateway_secret_key' => 'EJ6q4h8w0OanYO1WKtNbo9o8suDg6PKUkHNKv-T6F4APDiq2e19OZf7DfpL5uOlEzJ_AMgeE0L2PtTEj',
+                'gateway_client_id' => '',
+                'gateway_secret_key' => '',
                 'created_at' => date('Y-m-d h:i:s'),
 
             ],
@@ -60,8 +60,8 @@ class CreateSmPaymentGatewaySettingsTable extends Migration
                 'gateway_username' => 'demo@strip.com',
                 'gateway_password' => '12334589',
                 'gateway_client_id' => '',
-                'gateway_secret_key' => 'AVZdghanegaOjiL6DPXd0XwjMGEQ2aXc58z1-isWmBFnw1h2j',
-                'gateway_secret_word' => 'AVZdghanegaOjiL6DPXd0XwjMGEQ2aXc58z1',
+                'gateway_secret_key' => '',
+                'gateway_secret_word' => '',
                 'created_at' => date('Y-m-d h:i:s'),
 
             ],
@@ -74,8 +74,8 @@ class CreateSmPaymentGatewaySettingsTable extends Migration
                 'gateway_username' => 'demo@gmail.com',
                 'gateway_password' => '12334589',
                 'gateway_client_id' => '',
-                'gateway_secret_key' => 'sk_live_2679322872013c265e161bc8ea11efc1e822bce1',
-                'gateway_publisher_key' => 'pk_live_e5738ce9aade963387204f1f19bee599176e7a71',
+                'gateway_secret_key' => '',
+                'gateway_publisher_key' => '',
                 'created_at' => date('Y-m-d h:i:s'),
 
             ],
